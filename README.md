@@ -1,43 +1,33 @@
-### Авторы:
-- Лотфуллин Камиль @lotfull
-- Гавриков Алексей @gavr97
-- Александров Никита @nialeksandrov
- 
-### Ссылка на ER-диаграмму: 
+# Grade Classmates
+
+### The authors:
+- Lotfullin Kamil @lotfull
+- Gavrikov Alexey @gavr97
+- Alexandrov Nikita @nialeksandrov
+ 
+### Link to ER chart:
 - https://docs.google.com/drawings/d/1a4ul6v20uiewNyA2agQE_5w3eISx1ye7o1l6rYTFLUM/edit?usp=sharing
- 
-### Ссылка на таблицу связи: 
-- https://sqldbm.com/Project/Share/GXc8Zkjprav7dbC2vpwzIw 
-  
-### Ссылка на код: 
-- https://github.com/Lotfull/grade
- 
-### Отчет: 
-- https://docs.google.com/document/d/15OLim-1Jaae7uyMdxz3eP--g2OTfoxwBJ8sKeJFJ9Rs/edit
 
-### Запуск:
-    python3 manage.py runserver
-- Затем добро пожаловать на `http://127.0.0.1:8000`
+### Start:
+    `python3 manage.py runserver`
+- Then welcome to `127.0.0.1:8000`
 
-Открыть как студент: 
-- Выбрать `Student Login`
-    
-    
-    Логин: Vladimir
-    Пароль: Vladimir
-    
-Открыть как админ:
-- Выбрать `Admin Login`
+Open as a student:
+- Select `Student Login`
+    
+    Login: Vladimir
+    Password: Vladimir
+    
+Open as admin:
+- Select `Admin Login`
 
+    Login: admin
+    Password: admin
+ 
+### Subject Area Description:
 
-    Логин: admin
-    Пароль: admin
- 
-### Описание предметной области:
+GradeHim is a corporate appraisal system deployed with the example of a university.
 
-GradeHim - система корпоративного оценивания, развернутая на примере университета. 
-  
-Проблема, которую решает проект: отсутствие постоянного объективного feedback-а между преподавателями и студентами, студентом и студентом. 
- 
-Веб приложение, которое позволяет студентам оценивать преподавателя или друг друг после лекций, семинаров и прочих собраний. С помощью приложения пользователь на некоторой встрече сможет выделить и оценить отдельные качества другого участника, которому он хочет дать отзыв.  В любой момент времени каждый участник собрания может видеть какие оценки ставят другие участники, это будет обеспечивать объективность feedback-а, потому что, видя отличные от своего мнения оценки, пользователь будет сомневаться в правильности своей оценки. Постоянство feedback-а будет обеспечиваться за счет использование данной системы на каждой встрече. 
-
+The problem that the project solves is the lack of constant objective feedback between teachers and students, a student and a student.
+ 
+A web application that allows students to rate a teacher or friend after lectures, seminars and other meetings. Using the application, a user at a certain meeting will be able to identify and evaluate the individual qualities of another participant to whom he wants to give feedback. At any time, each participant in the meeting can see what ratings other participants put, this will ensure objectivity of feedback, because seeing the ratings different from his opinion, the user will doubt the correctness of his assessment. Consistency of feedback will be ensured by using this system at each meeting.
